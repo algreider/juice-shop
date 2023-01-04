@@ -4,9 +4,7 @@ on:
   push:
   pull_request:
     branches: [main]
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.txt'
+
 jobs:
   analyze:
     name: Analyze
